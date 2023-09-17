@@ -27,7 +27,8 @@ def get_extensions():
     extra_compile_args = {"cxx": []}
     define_macros = []
 
-    CUDA_HOME = "/opt/cuda/bin/nvcc"
+    CUDA_HOME = "/opt/cuda"
+
 
     if torch.cuda.is_available() and CUDA_HOME is not None:
         extension = CUDAExtension
