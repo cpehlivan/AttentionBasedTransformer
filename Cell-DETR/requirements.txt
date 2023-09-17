@@ -1,5 +1,5 @@
-torch==1.4.0+cu101
-torchvision==0.5.0
+torch==2.1.0+cu118
+torchvision==0.15.2+cu118
 numpy
 scikit-image
 scipy
